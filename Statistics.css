@@ -1,0 +1,36 @@
+/* src/components/Statistics.css */
+
+.statistics {
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #ffecb3);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text */
+}
+
+.statistics h2 {
+    color: #f57f17; /* Heading color */
+}
+
+/* Center badge styles */
+.badge-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows for responsiveness */
+    gap: 20px; /* Space between badges */
+    margin: 20px 0; /* Space above and below badges */
+}
+
+.badge {
+    background-color: #4db6ac; /* Badge background color */
+    color: white; /* Badge text color */
+    padding: 15px 25px; /* Padding for badges */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.badge:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

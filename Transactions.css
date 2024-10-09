@@ -1,0 +1,68 @@
+/* src/components/Transactions.css */
+
+.transactions {
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #e0f7fa);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.transactions h2 {
+    color: #00796b;
+    text-align: center;
+}
+
+.transactions select {
+    width: 200px;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+    background-color: #ffffff;
+    transition: border-color 0.3s;
+}
+
+.transactions select:hover {
+    border-color: #004d40;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.transactions th, .transactions td {
+    border: 1px solid #00796b;
+    padding: 10px;
+    text-align: left;
+}
+
+.transactions th {
+    background-color: #4db6ac;
+    color: white;
+}
+
+.transactions tr:nth-child(even) {
+    background-color: #e0f2f1;
+}
+
+.transactions tr:hover {
+    background-color: #b2dfdb;
+}
+
+.transactions button {
+    margin: 5px;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.transactions button:hover {
+    background-color: #004d40;
+}

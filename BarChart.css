@@ -1,0 +1,35 @@
+/* src/components/BarChart.css */
+
+.bar-chart {
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #ffffff, #ffe0b2);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bar-chart h2 {
+    color: #e65100;
+    text-align: center;
+}
+
+.bar-chart select {
+    width: 200px;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e65100;
+    background-color: #ffffff;
+    transition: border-color 0.3s;
+}
+
+.bar-chart select:hover {
+    border-color: #bf360c;
+}
+
+.chart-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
